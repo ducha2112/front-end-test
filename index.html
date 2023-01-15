@@ -26,6 +26,16 @@ git branch +nameBranch
 git checkout +nameBranch
 
 Слияние.  Чтобы соединить ветку nameBranch c веткой  master переходим на ветку master и вводим
-git merge  +nameBranch -->
+git merge  +nameBranch 
+
+Удаленный репозиторий. Создаем новый репозиторий.
+Он нам выдает команды:
+echo "# front-end-test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main   установка названия главной ветки
+git remote add origin https://github.com/ducha2112/front-end-test.git подключение
+git push -u origin main    выгрузка файлов с локального репозитория на удаленный origin-->
   </body>
 </html>
